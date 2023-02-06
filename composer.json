@@ -1,7 +1,7 @@
 {
-    "name": "lemisoft/plugin-boilerplate",
+    "name": "lemisoft/sylius-baselinker-plugin",
     "type": "sylius-plugin",
-    "description": "Boilerplate plugin for Sylius.",
+    "description": "Plugin add export order to baselinker.",
     "keywords": [
         "sylius",
         "sylius-plugin"
@@ -61,12 +61,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Lemisoft\\BoilerplatePlugin\\": "src/"
+            "Lemisoft\\SyliusBaselinkerPlugin\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Lemisoft\\Tests\\BoilerplatePlugin\\": "tests/"
+            "Lemisoft\\Tests\\SyliusBaselinkerPlugin\\": "tests/"
         },
         "classmap": [
             "tests/Application/Kernel.php"

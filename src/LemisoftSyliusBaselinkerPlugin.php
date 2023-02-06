@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Lemisoft\BoilerplatePlugin;
+namespace Lemisoft\SyliusBaselinkerPlugin;
 
 use Sylius\Bundle\CoreBundle\Application\SyliusPluginTrait;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-final class LemisoftBoilerplatePlugin extends Bundle
+final class LemisoftSyliusBaselinkerPlugin extends Bundle
 {
     use SyliusPluginTrait;
 
